@@ -32,6 +32,12 @@ namespace VariousTypes
             Console.WriteLine(i);
             Console.WriteLine(j);
 
+            bool k = true;
+            bool l = false; 
+
+            Console.WriteLine(k);
+            Console.WriteLine(l);
+
         }
     }
 }
