@@ -15,6 +15,15 @@ namespace ManyStrings
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
+
+            string d = "I'm a math string look, 1+1=" +2;
+            string e = "Here is a statment: " + d;
+            string f = $"Here is a wise talking string: {d}";
+
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
+
         }
     }
 }
