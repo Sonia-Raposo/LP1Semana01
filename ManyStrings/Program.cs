@@ -6,6 +6,10 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+
+
             string a = "I'm a string";
             string b = "I'm a more complex string";
             b = "Because I have changed";
@@ -23,6 +27,12 @@ namespace ManyStrings
             Console.WriteLine(d);
             Console.WriteLine(e);
             Console.WriteLine(f);
+
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
 
         }
     }
