@@ -6,9 +6,9 @@ namespace VariousTypes
     {
         static void Main(string[] args)
         {
-            int a = 4;
-            int b = 7;
-            int c = 563;
+            int a = 13;
+            int b = 0b11011;
+            int c = 0x7;
 
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -37,6 +37,8 @@ namespace VariousTypes
 
             Console.WriteLine(k);
             Console.WriteLine(l);
+
+            
 
         }
     }
